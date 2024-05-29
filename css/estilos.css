@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Melted Monster';
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #666666;
+}
+
+@font-face {
+    font-family: 'Melted Monster';
+    src: url('../fonts/Melted\ Monster.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BroncoPersonalUse';
+    src: url('../fonts/BroncoPersonalUse.ttf') format('truetype');
+}
+
+
+header{
+    background-color: #353a3e;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+#logo{
+    height: 90%;
+    
+}
+
+header nav {
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffde59;
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Melted Monster';
+}
+
+nav a:hover {
+    color: red;
+}
+
+#imagem-home{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/fundo-moto.jpg');
+    background-size: cover;
+    opacity: 0.8;
+    padding: 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Snowboarding';
+}
+
+
+#call-to-action{
+    background-color: #000;
+    color: #ffde59;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'BroncoPersonalUse';
+
+}
+
+#ver-motos{
+    background-color: #000;
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fbe27e;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: 'BroncoPersonalUse';
+}
+
+
+#ver-motos:hover{
+    background-color: red;
+    color: #ffde59;
+}
+
+#frase-motos {
+    text-align: center;
+    color: white;
+}
+
+
+.destaques-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+}
+
+.destaques-produtos img {
+    width: 100%;
+}
+
+.destaques {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.destaques-produtos p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: white;
+    
+}
+
+
+
+
+#imagem-interna{
+    width: 100%;
+    padding: 30px 0px;
+    background-image: url('../img/img-home.jpg');
+    background-size: cover;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+#imagem-interna-header span{
+    font-family:'Arkitech Medium';
+    font-size: 26px;
+    color: #ffde59;
+}
+
+#conteudo-empresa{
+    display: flex;
+    margin: 30px auto;
+}
+
+#video-empresa{
+    width: 50%;
+    margin-right: 30px;
+    padding: 33px 0px 20px 0px;
+}
+
+#info-empresa{
+    width: 50%;
+    margin-left: 30px;
+}
+
+#info-empresa h2 {
+    color: #ffde59;
+    font-family: 'BroncoPersonalUse';
+    padding: 20px 35px;
+}
+
+#video-empresa video{
+    max-width: 100%;
+    border-radius: 20px;
+    padding-left: 13px;
+}
+
+#video-empresa img {
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+#info-empresa p, li {
+    color: white;
+    text-align: justify;
+    padding: 20px 10px;
+
+}
+
+h3 {
+    color: #ffde59;
+    font-size: 24px;
+}
+
+footer p {
+    color: #ffde59;
+    font-family: 'BroncoPersonalUse';
+    text-align: center;
+}
+
+
+
+#contato-conteudo {
+    display: flex;
+    padding: 45px 0px 45px 0px;
+}
+
+#imagem-interna-header span {
+    font-family: 'BroncoPersonalUse';
+}
+
+#dados-contato {
+    width: 50%;
+    margin-right: 30px;
+    color: white;
+    font-family: 'BroncoPersonalUse';
+}
+
+#mapa {
+    width: 50%;
+    margin-left: 30px;
+}
+
+#frm-contato {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+#frm-contato input, textarea {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    padding: 5px 10px;
+}
+
+.texto2 a {
+    background-color: #595643;
+    padding: 20px 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.texto2 a:hover {
+    color: goldenrod;
+}
+
+
+button {
+    margin: 25px 15px 0px 15px;
+    padding: 8px 40px;
+    border-radius: 10px;
+    border: 0PX;
+    font-size: 18px;
+}
+
+#botao-enviar {
+    background-color: #37b400;
+    color: white;
+}
+
+#botao-apagar {
+    background-color: #c4c4c4;
+    color: #555;
+}
+
+#frame-mapa {
+    border-radius: 10px;
+}
+
+
+ 
