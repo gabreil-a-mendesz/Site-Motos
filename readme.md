@@ -10,3 +10,6 @@ Uma loja de motos é mais do que um lugar para comprar uma motocicleta; é um es
 Os clientes podem encontrar uma variedade de marcas e modelos, desde as lendárias Harley-Davidson até as ágeis Ducatis ou as aventureiras BMWs. Há opções para todos os gostos e propósitos, seja para viagens longas na estrada, aventuras fora de estrada ou simplesmente para dar um passeio pela cidade aos fins de semana.
 
 ![](https://github.com/gabreil-a-mendesz/Site-Motos/blob/master/miniatura/Tela%20Inicial.png)
+
+
+![](https://github.com/gabreil-a-mendesz/Site-Motos/blob/master/miniatura/Venda%20moto.png)
